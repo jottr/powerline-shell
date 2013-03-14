@@ -61,7 +61,7 @@ class Powerline:
     }
 
     root_indicators = {
-        'bash': ' \\$ ',
+        'bash':  u'\u26A1 ', #'bash': ' \\$ ', Changed root indicator to display arrow
         'zsh': ' \\$ ',
         'bare': ' $ ',
     }
